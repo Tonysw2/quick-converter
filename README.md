@@ -24,7 +24,7 @@ In the current version of the QuickConverter, the chart showcasing historical ex
 
 ## Live Application
 
-Experience QuickConverter live: [Visit QuickConverter](<Your-Deployed-Application-URL>)
+Experience QuickConverter live: [Visit QuickConverter](https://quick-converter-nu.vercel.app/)
 
 Click the link above to access the application and enjoy currency conversions.
 
