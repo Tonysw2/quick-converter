@@ -22,6 +22,12 @@ Mention the technologies, frameworks, and libraries used in the project. For exa
 
 In the current version of the QuickConverter, the chart showcasing historical exchange rates is populated with mock numbers. This decision was made because accessing real-time and historical exchange data requires a subscription to the PRO version of the exchange rate currency api.
 
+## Live Application
+
+Experience QuickConverter live: [Visit QuickConverter](<Your-Deployed-Application-URL>)
+
+Click the link above to access the application and enjoy currency conversions.
+
 ## Getting Started
 
 To run the Currency Converter on your machine, follow these quick steps:
