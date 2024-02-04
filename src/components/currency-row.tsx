@@ -31,7 +31,7 @@ export function CurrencyRow({
   onChangeCurrency,
 }: Props) {
   return (
-    <div className="grid grid-cols-2 gap-2">
+    <div className="grid w-full grid-cols-2 gap-2">
       <Input
         type="text"
         value={amount}

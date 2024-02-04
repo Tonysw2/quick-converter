@@ -76,8 +76,8 @@ export function ConversionRateChart({ data, fromCurrency }: Props) {
               type="linear"
               strokeWidth={2}
               dataKey="rate"
-              stroke={colors.green[500]}
-              fill={colors.green[500]}
+              stroke={colors.amber[500]}
+              fill={colors.amber[500]}
             />
           </LineChart>
         </ResponsiveContainer>

@@ -111,7 +111,7 @@ export function Home() {
           <ToggleTheme />
         </CardHeader>
 
-        <CardContent className="flex items-center gap-2">
+        <CardContent className="flex flex-col items-center gap-2 sm:flex-row">
           <CurrencyRow
             amount={fromAmount}
             isLoading={isFetching}
@@ -121,11 +121,13 @@ export function Home() {
             onChangeCurrency={handleChangeCurrency(setFromCurrency)}
           />
 
-          {isFetching ? (
-            <Loader className="h-4 w-4 animate-spin" />
-          ) : (
-            <Repeat className="h-4 w-4" />
-          )}
+          <div>
+            {isFetching ? (
+              <Loader className="h-4 w-4 animate-spin" />
+            ) : (
+              <Repeat className="h-4 w-4 rotate-90 sm:rotate-0" />
+            )}
+          </div>
 
           <CurrencyRow
             amount={toAmount}
