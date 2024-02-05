@@ -6,8 +6,6 @@ This Currency Converter is a web application that allows users to easily convert
 
 ## Technologies
 
-Mention the technologies, frameworks, and libraries used in the project. For example:
-
 - Zod
 - Axios
 - React
